@@ -1,0 +1,280 @@
+.header-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logos img {
+  height: 30px;
+  width: 120px;
+}
+
+nav {
+  align-self: center;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 25px;
+  font-weight: bold;
+}
+
+.nav-buttons li {
+  list-style: none;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-buttons li:hover {
+  text-decoration: underline;
+}
+
+/*sign-in-sign up buttons*/
+.nav-buttonstwo {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.sign-in, .sign-up {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  width: 130px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:5px
+
+ 
+}
+
+.sign-in {
+  color: black;
+  border: solid #BCD0E5 2px;
+  margin-right: 5px;
+}
+
+
+
+.sign-up {
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+.sign-up:hover {
+  background-color: darkorange;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.main-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+  color: #2F281E;
+}
+
+
+.main-info {
+  max-width: 458px;
+  margin-top: 10px;
+  margin-left: 200px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: black;
+}
+
+/* Buttons */
+.main-btn {
+  background-color: orange;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  width: 175px;
+  height: 53px;
+  border: none;
+  cursor: pointer;
+}
+
+.main-btn:hover {
+  background-color: darkorange;
+}
+
+.btn-two {
+  width: 161px;
+  background-color: white;
+  color: orange;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  left: 20px;
+  cursor: pointer;
+}
+
+.btn-two:hover {
+  background-color: orange;
+  color: white;
+}
+
+
+.girls {
+  position: absolute;
+  left: 450px;
+  bottom: 450px;
+  height: 400px;
+  transform: translate(50%, 50%);
+}
+
+/*  Blocks */
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  max-width: 2000px;
+  min-width: 1200px;
+}
+
+
+.block {
+  width: 250px;
+  margin: 20px;
+  text-align: center;
+}
+
+.block img {
+  width: 70px;
+  margin-bottom: 15px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.block h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.block p {
+  font-size: 16px;
+  color: #666;
+}
+
+
+.block:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+
+.secondtitle {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 30px;
+  color: black;
+}
+.signupnow {
+  align-self: center;
+}
+.icons-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.design {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px;
+  gap: 100px;
+}
+.d-image {
+  width: 300px;
+}
+
+.d-image-1 img {
+  height: 374px;
+}
+
+.d-image img {
+  height: 350px;
+}
+
+.d-content {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.content-title {
+  font-weight: bold;
+  margin-inline: 0;
+  margin-block-start: 0;
+}
+.content-style {
+  margin-inline: 0;
+  margin-block-start: 0;
+  color: #544837;
+}
+
+.img-tick {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.row-style {
+  display: flex;
+  column-gap: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  color: #544837;
+  font-size: 16px;
+  border-top: solid #BCD0E5 2px;
+  padding-top: 50px;
+}
+
+.footer img {
+  width: 120px;
+  height: 30px;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.email {
+  width: 200px;
+  height: 20px;
+  border: solid #BCD0E5 2px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+} 
+
+.footer .sign-up {
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+}
